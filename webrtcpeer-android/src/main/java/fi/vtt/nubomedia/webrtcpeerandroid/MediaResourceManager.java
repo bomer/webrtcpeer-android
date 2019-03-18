@@ -334,7 +334,7 @@ final class MediaResourceManager implements NBMWebRTCPeer.Observer {
         }
 
         // Create audio track
-        localMediaStream.addTrack(factory.createAudioTrack(AUDIO_TRACK_ID, factory.createAudioSource(audioConstraints)));
+        //localMediaStream.addTrack(factory.createAudioTrack(AUDIO_TRACK_ID, factory.createAudioSource(audioConstraints)));
 
         Log.d(TAG, "Local media stream created.");
     }
